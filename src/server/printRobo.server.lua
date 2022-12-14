@@ -1,5 +1,5 @@
 game.Players.PlayerAdded:Connect(function(player)
-	print(player.name .. "haii connected visual studion ide... updated ")
+	print(player.name .. "haii connected visual studion ide... ")
 end)
 
 local dicto = {
@@ -15,13 +15,13 @@ function boostHealth()
 		print("boosting....")
 		health = 90
 	end
-	print("helath.." .. health)
+	print("health.." .. health)
 end
 
 boostHealth()
 
-local TextButton = game.StarterGui.ScreenGui.TextButton
-TextButton.MouseButton1Up:Connect(function() 
-	TextButton.Visible = false
-    print("clicked")
-end)
+-- local TextButton = game.StarterGui.ScreenGui.TextButton
+-- TextButton.MouseButton1Up:Connect(function() 
+-- 	TextButton.Visible = false
+--     print("clicked")
+-- end)
